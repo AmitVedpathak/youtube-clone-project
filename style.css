@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+.spanContent{
+    @apply bg-black text-white rounded text-lg px-2 py-1
+}
+html {
+    box-sizing: border-box;
+  }
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+@tailwind utilities;
