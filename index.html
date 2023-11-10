@@ -7,11 +7,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>MyYoutube</title>
 </head>
-<body class="bg-gray-100 m-0 p-0 box-border h-screen">
+<body class="bg-gray-100 m-0 p-0 box-border min-h-screen">
     <!-- Main Container -->
     <div class="lg:ml-20">
         <!-- Header -->
-        <header class="bg-white divide-y w-full">
+        <header class="bg-white w-full sticky top-0">
             <div class="flex justify-between items-center h-14 mx-2 ">
                 <div>
                    <a href="#"><img src="/assets/yt.jpg" alt="youtube" class="w-[117px] h-[37px]"></a>
@@ -85,7 +85,7 @@
             </div>
         </header>
         <!-- youtube clips or cards means video clips -->
-        <div class="overflow-auto h-screen">
+        <div class="overflow-scroll">
             <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-2 md:gap-2 lg:grid-cols-3 xl:grid-cols-4">
                 <div class="bg-origin-border mt-2 ">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIIGUoDWX77ujs_-GywxLK9iPvu39ppU24Q&usqp=CAU" alt="card1" class="w-full h-[178px] rounded-lg hover:transition ease-out duration-500 hover:rounded-none">
